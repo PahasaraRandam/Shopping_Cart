@@ -74,7 +74,7 @@ if(!isset($_SESSION['email'])){
 <div class="container">
       <h2 class="p-5 ">Your Posted Advertisements</h2>
 
-    <table class="table table-striped table-bordered table-hover tb p-5 mt-5" style="width: 1000px; ">
+    <table class="table table-striped table-bordered table-hover tb p-5 mt-5" style="width: 1200px; ">
 
             <thead class="text-bg-dark h3 p-5">
                 <th>Image</th>

@@ -140,19 +140,19 @@ header('Location:tabbs.php?buying=sucess');
 
         <ul class="navbar-nav size links">
 
-              <li class="nav-item pe-4" id="tab-1" onclick="tabnum(1);">
+              <li class="nav-item pe-4" id="tab-1" onclick="tabnum(1)">
 
-                    <a class="nav-link " href="tabbs.php" >Home</a>
+                    <a class="nav-link active " href="tabbs.php" >Home</a>
 
               </li>
 
-              <li class="nav-item pe-4" id="tab-2" onclick="tabnum(2);">
+              <li class="nav-item pe-4" id="tab-2" onclick="tabnum(2)">
 
                     <a class="nav-link" href="contact.php" >Contact</a>
 
               </li>
 
-              <li class="nav-item pe-4" id="tab-3" onclick="tabnum(3);">
+              <li class="nav-item pe-4" id="tab-3" onclick="tabnum(3)">
 
                     <a class="nav-link" href="aboutus.php" >About Us</a>
                 
@@ -180,7 +180,7 @@ header('Location:tabbs.php?buying=sucess');
         echo"
         <div class=\"alert alert-success alert-dismissible  aler \">
             <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\"></button>
-            <strong>Invalid Search Results!</strong> There is nNo Advertisements Under That Keyword
+            <strong>Invalid Search Results!</strong> There is No Advertisements Under That Keyword
         </div>
       ";
       }
@@ -190,7 +190,7 @@ header('Location:tabbs.php?buying=sucess');
 
 
 
-        <table class="table table-striped rounded-4 table-hover tb p-5 mt-5 " style="width: 900px; ">
+        <table class="table table-striped rounded-4 table-hover tb p-5 mt-5 " style="width: 1200px; ">
 
             <thead class="text-bg-dark h3 p-5">
                 <th>Image</th>
@@ -279,7 +279,7 @@ header('Location:tabbs.php?buying=sucess');
 
             require_once('footer.php');
         ?>
-<script src="../Shopping_cart/script.js"></script>
+<script src="../Shopping_cart/xx.js"></script>
 <script src="../bootstrap 5/js/bootstrap.bundle.min.js"></script>   
 </body>
 </html>

@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
 
     $errors = array();
     
-    $first_name= $_POST['first_name'];
+    $first_name=$_POST['first_name'];
     $last_name= $_POST['last_name'];
     $email= $_POST['email'];
     $password= $_POST['password'];
@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
                         move_uploaded_file($tmp_name,$destination_img.$name);
 
     
-                    $first_name= mysqli_real_escape_string($connection,$_POST['first_name']);
+                    $first_name=mysqli_real_escape_string($connection,$_POST['first_name']);
                     $last_name= mysqli_real_escape_string($connection,$_POST['last_name']);
                     $password= mysqli_real_escape_string($connection,$_POST['password']);
                     
@@ -138,7 +138,6 @@ if(isset($_POST['submit'])){
 
 
 <div class="container ">
-
         <div class="h2 my-3 "><strong>Add User Page</strong> <a href="logte.php" class="alert-link  h4">  <small>&raquo;Back To Login Page</a></small></div>
 
         <br>

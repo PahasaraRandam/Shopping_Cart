@@ -1,6 +1,6 @@
 <?php
 
-$connection=mysqli_connect('localhost','root','','userdb');
+$connection=mysqli_connect('localhost','root','','shopping');
 
 if(mysqli_connect_errno()){
     die('database connection faild') . mysqli_connect_error();
